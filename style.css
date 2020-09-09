@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: rgb(18, 101, 116);
+  overflow: hidden;
+}
+
+.container{
+  height: 80vh;
+  width: 70vw;
+  margin: 5rem auto;
+  background: black;
+  background-size: cover;
+  position: relative;
+  box-shadow: 1px 2px 60px rgb(44, 44, 44);
+  overflow: hidden; 
+}
+
+
+.field{
+  height: 700rem;
+  width: 100%;
+  display: block;
+  background-size: 100%;  
+  background-repeat: repeat-y;  
+  position: absolute;
+  
+}
+
+.butterfly{
+  display: block;
+  position: absolute;
+  width: 200vw;
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: 12%; 
+}
+
+.clouds{
+  height: 700rem;
+  width: 70vw;
+  display: block;
+  background-size: 100%;  
+  background-repeat: repeat-y;  
+  position: absolute;
+  filter: drop-shadow(5px 10px 3px #333333);
+}
+
+
+
